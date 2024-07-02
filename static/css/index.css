@@ -1,0 +1,84 @@
+#main-text{
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+#title{
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+#main-text div{
+    font-weight: bolder;
+    width: 700px;
+}
+
+#button-title{
+    font-weight: bold;
+    font-size : 36px;
+}
+
+#button-content{
+    width: 700px;
+    font-size: 16px;
+}
+
+#button-arrow{
+    font-weight: bold;
+    font-size : 36px;
+}
+
+#left-side-button-section{
+    width: 100%;
+}
+
+#right-side-button-section{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.side-button{
+    color: rgb(32, 32, 32);
+    background-color: #F2E8DF;
+    width: 700px;
+    height: 250px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: background-color 0.3s ease;
+}
+
+.side-button:hover{
+    color: #F28585;
+}
+
+#left-side-button{
+    padding-right: 100px;
+    align-items: end;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-bottom: 70px;
+}
+
+#right-side-button{
+    padding-left: 100px;
+    align-items: start;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}

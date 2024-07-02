@@ -1,0 +1,13 @@
+#footer{
+    width: 1200px;
+    height: 150px;
+    background-color: rgb(83, 83, 83);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    box-sizing: border-box;
+    padding: 40px;
+
+}

@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<div id = 'content'>
+    <div id="main">
+        <div>
+            <img src="{% static 'img/bear_img.png' %}" width="200">
+        </div>
+        <div id="main-text">
+            <div id="title">배프Chat이란?</div>
+            <div id="comment">
+                배프Chat은 디지털배리어프리 실천을 위해 AI기술을 활용하여 디지털 전자기기 서비스 진입 장벽으로 인한 정보격차를 해소하기위해 만들어진 서비스 입니다.
+            </div>
+        </div>
+    </div>
+    <div id = 'button-group'>
+        <div id = 'left-side-button-section'>
+            <a href="/selfsignlanguagetochatgpt/">
+                <div class = 'side-button' id='left-side-button'>
+                    <div id= 'button-title'>수어로 대화 하기</div>
+                    <div id= 'button-content'>
+                        AI_32_team에서 개발한 강력한 수어 번역 모델과 Chat Gpt api를 결합하여 입력한 수어를 통해 Chat Gpt에게 질문해 볼 수 있습니다.
+                        수어 이미지는 파일 업로드로 입력할 수 있지만, WebCam을 통해서도 입력이 가능합니다!
+                    </div>
+                    <div id = 'button-arrow'>
+                        >>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+        <div id = 'right-side-button-section'>
+            <a href="/selfchatgpt/">
+                <div class = 'side-button' id='right-side-button'>
+                    <div id= 'button-title'>Chat Gpt와 대화 하기</div>
+                    <div id= 'button-content'>
+                        Chat GPT는 OpenAI에서 개발한 인공지능 대화 모델로, 다양한 주제에 대한 대화를 자연스럽게 이어나갈 수 있습니다. 사용자들은 질문, 문제 해결, 정보 제공 등 다양한 상황에서 Chat GPT를 활용하여 도움을 받을 수 있습니다.
+                    </div>
+                    <div id = 'button-arrow'>
+                        >>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}
