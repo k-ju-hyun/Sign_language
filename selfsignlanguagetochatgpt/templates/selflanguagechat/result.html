@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'selflanguagechat/chat_style.css' %}">
+<body class="view">
+  <div class="one-box">
+    <div id="title">chatgpt에게 요청하기</div>
+    <form action="chat/" method="post" entype="application/x-www-form-urlencoded">
+        {% csrf_token %}
+      <div class="container">
+        <div id="file-module-0">
+            <textarea id="question" name="question">{{question}}</textarea>
+        </div>
+        <div id="result-module">
+          {% comment %} <label>응답</label><br> {% endcomment %}
+          <span id="result">{{result}}</span>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+{% endblock %}

@@ -1,0 +1,95 @@
+#content{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+form{
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#speech_bubble_question{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+    height: 80px;
+    background-color: #F2C6C2;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+textarea{
+    width: 500px;
+    height: 60px;
+    border: none;
+    background-color: #F2C6C2;
+}
+
+label{
+    font-weight: bold;
+    font-size: 36px;
+    color : rgb(64, 64, 64);
+    margin-bottom: 20px;
+}
+
+#comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+#comment div{
+    color: rgb(135, 104, 105);
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#comment img{
+    width: 150px;
+}
+
+#button-group{
+    width: 100%;
+    display : flex;
+    justify-content:start;
+    margin: 30px;
+}
+
+#text-button{
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(94, 94, 94);
+    color: white;
+    font-size: 16px;
+    width: 80px;
+    height: 40px;
+}
+
+#text-button:hover{
+    color: #F28585;
+}
+
+#result{
+    width: 700px;
+    margin-top: 100px;
+    background-color: #F28585;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#communication{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
